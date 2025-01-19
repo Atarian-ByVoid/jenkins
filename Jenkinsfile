@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Run Application') {
             steps {
-                sh 'java -jar target/nome-do-seu-projeto.jar'
+                sh 'java -jar target/demo.jar'
             }
         }
     }
